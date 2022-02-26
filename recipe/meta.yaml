@@ -1,5 +1,5 @@
 {% set name = "perl-db_file" %}
-{% set version = "1.856" %}
+{% set version = "1.857" %}
 
 package:
   name: {{ name }}
@@ -7,15 +7,16 @@ package:
 
 source:
   url: https://cpan.metacpan.org/authors/id/P/PM/PMQS/DB_File-{{ version }}.tar.gz
-  sha256: cdf9ba922fe39159d36b73f9fb815f5eaa375f3a3e4dc4de78e053b444cd66a9
+  sha256: 7528eaee49ccd3de268d9358226c6c7617d0d7d8786fcc31d7402c54d570a394
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - make
 
   host:
     - perl
