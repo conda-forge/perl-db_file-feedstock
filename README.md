@@ -1,11 +1,11 @@
-About perl-db_file
-==================
+About perl-db_file-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-db_file-feedstock/blob/main/LICENSE.txt)
 
 Home: https://metacpan.org/pod/DB_File
 
 Package license: Artistic-1.0-Perl OR GPL-1.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/perl-db_file-feedstock/blob/main/LICENSE.txt)
 
 Summary: DB_File is a module which allows Perl programs to make use of the facilities provided by Berkeley DB
 
@@ -32,14 +32,14 @@ Current build status
               <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12259&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-db_file-feedstock?branchName=main&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-db_file-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12259&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-db_file-feedstock?branchName=main&jobName=osx&configuration=osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/perl-db_file-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr>
