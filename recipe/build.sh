@@ -16,7 +16,9 @@ elif [ -f Makefile.PL ]; then
     # Make sure this goes in site
     perl Makefile.PL
     make
+if [[ "${CONDA_BUILD_CROSS_COMPILATION:-}" != "1" || "${CROSSCOMPILING_EMULATOR}" != "" ]]; then
     make test
+fi
     make install
 else
     echo 'Unable to find Build.PL or Makefile.PL. You need to modify build.sh.'
